@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2EE9CBA2BF28EC700408437 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EE9CB92BF28EC700408437 /* LRUCache.swift */; };
+		B2F42FED2BEBF12C009621F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F42FEC2BEBF12C009621F4 /* AppDelegate.swift */; };
+		B2F42FEF2BEBF12C009621F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F42FEE2BEBF12C009621F4 /* SceneDelegate.swift */; };
+		B2F42FF42BEBF12C009621F4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B2F42FF32BEBF12C009621F4 /* Base */; };
+		B2F42FF62BEBF130009621F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F42FF52BEBF130009621F4 /* Assets.xcassets */; };
+		B2F42FF92BEBF130009621F4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B2F42FF82BEBF130009621F4 /* Base */; };
+		B2F430082BEBF31A009621F4 /* ScrollableGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F430072BEBF31A009621F4 /* ScrollableGridViewController.swift */; };
+		B2F4300A2BEBF43B009621F4 /* ScrollableGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F430092BEBF43B009621F4 /* ScrollableGridViewModel.swift */; };
+		B2F430102BEBF5DB009621F4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4300F2BEBF5DB009621F4 /* APIManager.swift */; };
+		B2F430122BEBF83D009621F4 /* APIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F430112BEBF83D009621F4 /* APIEndPoint.swift */; };
+		B2F430152BEC934D009621F4 /* ScrollableGridAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F430142BEC934D009621F4 /* ScrollableGridAPIResponse.swift */; };
+		B2F430242BF0ACA7009621F4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F430232BF0ACA7009621F4 /* Constant.swift */; };
+		B2F4302D2BF0AE10009621F4 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4302A2BF0AE10009621F4 /* ImageCollectionViewCell.swift */; };
+		B2F4302F2BF0BEB3009621F4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4302E2BF0BEB3009621F4 /* ImageLoader.swift */; };
+		B2F430312BF0D11B009621F4 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F430302BF0D11B009621F4 /* UIImage+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2EE9CB92BF28EC700408437 /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		B2F42FE92BEBF12C009621F4 /* ScrollableGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F42FEC2BEBF12C009621F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2F42FEE2BEBF12C009621F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B2F42FF32BEBF12C009621F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2F42FF52BEBF130009621F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2F42FF82BEBF130009621F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2F42FFA2BEBF130009621F4 /* ScrollableGrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollableGrid-Info.plist"; sourceTree = "<group>"; };
+		B2F430072BEBF31A009621F4 /* ScrollableGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableGridViewController.swift; sourceTree = "<group>"; };
+		B2F430092BEBF43B009621F4 /* ScrollableGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableGridViewModel.swift; sourceTree = "<group>"; };
+		B2F4300F2BEBF5DB009621F4 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		B2F430112BEBF83D009621F4 /* APIEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoint.swift; sourceTree = "<group>"; };
+		B2F430142BEC934D009621F4 /* ScrollableGridAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableGridAPIResponse.swift; sourceTree = "<group>"; };
+		B2F430232BF0ACA7009621F4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B2F4302A2BF0AE10009621F4 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		B2F4302E2BF0BEB3009621F4 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B2F430302BF0D11B009621F4 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F42FE62BEBF12C009621F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2F42FE02BEBF12C009621F4 = {
+			isa = PBXGroup;
+			children = (
+				B2F42FEB2BEBF12C009621F4 /* ScrollableGrid */,
+				B2F42FEA2BEBF12C009621F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F42FEA2BEBF12C009621F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F42FE92BEBF12C009621F4 /* ScrollableGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F42FEB2BEBF12C009621F4 /* ScrollableGrid */ = {
+			isa = PBXGroup;
+			children = (
+				B2F430202BF0AC7E009621F4 /* Helper */,
+				B2F4300C2BEBF526009621F4 /* Network */,
+				B2F4300B2BEBF51E009621F4 /* Model */,
+				B2F430002BEBF1A4009621F4 /* Appdelegate */,
+				B2F430012BEBF1BE009621F4 /* Resources */,
+				B2F430062BEBF240009621F4 /* ViewModels */,
+				B2F430022BEBF1CB009621F4 /* Views */,
+			);
+			path = ScrollableGrid;
+			sourceTree = "<group>";
+		};
+		B2F430002BEBF1A4009621F4 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B2F42FEC2BEBF12C009621F4 /* AppDelegate.swift */,
+				B2F42FEE2BEBF12C009621F4 /* SceneDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		B2F430012BEBF1BE009621F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2F42FF52BEBF130009621F4 /* Assets.xcassets */,
+				B2F42FFA2BEBF130009621F4 /* ScrollableGrid-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2F430022BEBF1CB009621F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2F430252BF0ADAB009621F4 /* Cells */,
+				B2F430042BEBF214009621F4 /* ViewControllers */,
+				B2F430032BEBF1D3009621F4 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2F430032BEBF1D3009621F4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B2F42FF22BEBF12C009621F4 /* Main.storyboard */,
+				B2F42FF72BEBF130009621F4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B2F430042BEBF214009621F4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2F430072BEBF31A009621F4 /* ScrollableGridViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B2F430062BEBF240009621F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B2F430092BEBF43B009621F4 /* ScrollableGridViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B2F4300B2BEBF51E009621F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2F430142BEC934D009621F4 /* ScrollableGridAPIResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2F4300C2BEBF526009621F4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B2F4300E2BEBF5AC009621F4 /* APIEndPoint */,
+				B2F4300D2BEBF59A009621F4 /* APIManager */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B2F4300D2BEBF59A009621F4 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				B2F4300F2BEBF5DB009621F4 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		B2F4300E2BEBF5AC009621F4 /* APIEndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				B2F430112BEBF83D009621F4 /* APIEndPoint.swift */,
+			);
+			path = APIEndPoint;
+			sourceTree = "<group>";
+		};
+		B2F430202BF0AC7E009621F4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B2F430222BF0AC8B009621F4 /* Constant */,
+				B2F430212BF0AC85009621F4 /* Extensions */,
+				B2F4302E2BF0BEB3009621F4 /* ImageLoader.swift */,
+				B2EE9CB92BF28EC700408437 /* LRUCache.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B2F430212BF0AC85009621F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2F430302BF0D11B009621F4 /* UIImage+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B2F430222BF0AC8B009621F4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				B2F430232BF0ACA7009621F4 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		B2F430252BF0ADAB009621F4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B2F430272BF0ADBB009621F4 /* CollectionView */,
+				B2F430262BF0ADB2009621F4 /* TableView */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B2F430262BF0ADB2009621F4 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		B2F430272BF0ADBB009621F4 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B2F4302A2BF0AE10009621F4 /* ImageCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F42FE82BEBF12C009621F4 /* ScrollableGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F42FFD2BEBF130009621F4 /* Build configuration list for PBXNativeTarget "ScrollableGrid" */;
+			buildPhases = (
+				B2F42FE52BEBF12C009621F4 /* Sources */,
+				B2F42FE62BEBF12C009621F4 /* Frameworks */,
+				B2F42FE72BEBF12C009621F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableGrid;
+			productName = ScrollableGrid;
+			productReference = B2F42FE92BEBF12C009621F4 /* ScrollableGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F42FE12BEBF12C009621F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B2F42FE82BEBF12C009621F4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = B2F42FE42BEBF12C009621F4 /* Build configuration list for PBXProject "ScrollableGrid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2F42FE02BEBF12C009621F4;
+			productRefGroup = B2F42FEA2BEBF12C009621F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F42FE82BEBF12C009621F4 /* ScrollableGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F42FE72BEBF12C009621F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F42FF62BEBF130009621F4 /* Assets.xcassets in Resources */,
+				B2F42FF92BEBF130009621F4 /* Base in Resources */,
+				B2F42FF42BEBF12C009621F4 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F42FE52BEBF12C009621F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F430152BEC934D009621F4 /* ScrollableGridAPIResponse.swift in Sources */,
+				B2F430082BEBF31A009621F4 /* ScrollableGridViewController.swift in Sources */,
+				B2F4302F2BF0BEB3009621F4 /* ImageLoader.swift in Sources */,
+				B2F4300A2BEBF43B009621F4 /* ScrollableGridViewModel.swift in Sources */,
+				B2F430312BF0D11B009621F4 /* UIImage+Extensions.swift in Sources */,
+				B2F430242BF0ACA7009621F4 /* Constant.swift in Sources */,
+				B2F430102BEBF5DB009621F4 /* APIManager.swift in Sources */,
+				B2F42FED2BEBF12C009621F4 /* AppDelegate.swift in Sources */,
+				B2EE9CBA2BF28EC700408437 /* LRUCache.swift in Sources */,
+				B2F4302D2BF0AE10009621F4 /* ImageCollectionViewCell.swift in Sources */,
+				B2F42FEF2BEBF12C009621F4 /* SceneDelegate.swift in Sources */,
+				B2F430122BEBF83D009621F4 /* APIEndPoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2F42FF22BEBF12C009621F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F42FF32BEBF12C009621F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2F42FF72BEBF130009621F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F42FF82BEBF130009621F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2F42FFB2BEBF130009621F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2F42FFC2BEBF130009621F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F42FFE2BEBF130009621F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "./ScrollableGrid/Resources/ScrollableGrid-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.organization.ScrollableGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2F42FFF2BEBF130009621F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "./ScrollableGrid/Resources/ScrollableGrid-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.organization.ScrollableGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F42FE42BEBF12C009621F4 /* Build configuration list for PBXProject "ScrollableGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F42FFB2BEBF130009621F4 /* Debug */,
+				B2F42FFC2BEBF130009621F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F42FFD2BEBF130009621F4 /* Build configuration list for PBXNativeTarget "ScrollableGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F42FFE2BEBF130009621F4 /* Debug */,
+				B2F42FFF2BEBF130009621F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2F42FE12BEBF12C009621F4 /* Project object */;
+}
